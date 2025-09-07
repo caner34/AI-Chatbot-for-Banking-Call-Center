@@ -239,7 +239,7 @@ translation = {
         "tr_gb_tts_generator_description": "Bu uygulama, Türkçe veya İngilizce metni AI Laboratuvarı Çözümleri kullanarak sese dönüştürür.",
         "enter_text": "Metin Girin:",
         "text_area_default_text": "Merhaba, hoş geldiniz",
-        "choose_a_voice_option": "Bir ses seçeneği seçin",
+        "choose_a_voice_option": "Bir ses seçeneği seçin ",
         "generate_speech": "Konuşma Oluştur",
         "please_enter_some_text": "Lütfen biraz metin girin.",
         "banking_call_center_simulator_page_explanation": "Bu modül, çağrı kategorisi, müşterinin duygu durumu, kişisel bilgiler gibi birçok özelliği içeren Banka Çağrı Merkezi diyalogları üretir. AI Laboratuvarı Çözümleri kullanarak hem Türkçe hem de İngilizce olarak seslendirme yapma kapasitesine sahiptir.",
