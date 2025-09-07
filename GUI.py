@@ -77,9 +77,9 @@ voice_options = {
 }
 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(
-    'credentials', 'canerbrc34_tts_arabic_tests_cred_boreal-ward-445010-t6-dceafea1be7e.json'
-)
+# os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(
+#     'credentials', 'canerbrc34_tts_arabic_tests_cred_boreal-ward-445010-t6-dceafea1be7e.json'
+# )
 
 
 def synthesize_text_to_speech(
