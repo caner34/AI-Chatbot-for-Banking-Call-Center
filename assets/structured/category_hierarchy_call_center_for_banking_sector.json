@@ -1,0 +1,206 @@
+{
+    "categories": [
+        {
+            "name": "Information",
+            "subcategories": [
+                {
+                    "name": "General Account & Banking Information",
+                    "microcategories": [
+                        "Account Balance, Transactions & Mini Statements",
+                        "Account Opening Process, Documentation & Eligibility",
+                        "Types of Accounts (Savings, Current, Business, Joint, Premium)",
+                        "Dormant/Inoperative Accounts & Reactivation Process",
+                        "Interest Rates, Minimum Balance & Account Benefits"
+                    ]
+                },
+                {
+                    "name": "Credit Cards & Loan Information",
+                    "microcategories": [
+                        "Credit Card Features, Eligibility & Benefits",
+                        "Loan Types, Interest Rates & EMI Calculation",
+                        "Credit Score, Credit Report & Impact on Loan Eligibility",
+                        "Loan Repayment Terms, Prepayment & Refinancing",
+                        "Loan Application Status, Rejection Reasons & Appeals",
+                        "Personal Loans vs. Auto/Home/Business Loan Differences"
+                    ]
+                },
+                {
+                    "name": "Digital Banking & Security Awareness",
+                    "microcategories": [
+                        "Online & Mobile Banking Registration, Activation & Features",
+                        "Forgot Password / Reset PIN Issues for Net Banking & Apps",
+                        "Multi-Factor Authentication (OTP, Biometrics) & Security Alerts",
+                        "Linking Multiple Bank Accounts & Digital Wallets",
+                        "Digital Payment Methods (UPI, QR Codes, Mobile Wallets)",
+                        "Reporting Suspicious Activities, Phishing, & Scam Prevention",
+                        "Troubleshooting Payment Failures & Transaction Errors"
+                    ]
+                },
+                {
+                    "name": "Bank Policies, Terms & Compliance",
+                    "microcategories": [
+                        "Changes in Interest Rates, Banking Fees & Service Charges",
+                        "Government Schemes, Subsidies & Tax Benefits in Banking",
+                        "Banking Regulations & Customer Rights (Privacy, Data Protection)",
+                        "Differences in Personal, Business & Corporate Banking Policies",
+                        "International Banking Guidelines & Cross-Border Transactions"
+                    ]
+                },
+                {
+                    "name": "Investment & Wealth Management",
+                    "microcategories": [
+                        "Fixed Deposits, Recurring Deposits & High-Yield Savings Accounts",
+                        "Mutual Funds, Stocks, Bonds & Portfolio Management",
+                        "Retirement Plans, Pension Schemes & Annuities",
+                        "Life, Health & General Insurance Linked to Banking Services",
+                        "Real Estate & Gold Investment Advisory Services",
+                        "Tax-Saving Investment Options & Benefits",
+                        "Risk Management & Diversification Strategies"
+                    ]
+                },
+                {
+                    "name": "Offers, Promotions & Cross-Selling",
+                    "microcategories": [
+                        "Cashback, Reward Points & Loyalty Program Details",
+                        "Promotional Offers on Loans, Credit Cards & Deposits",
+                        "Exclusive Deals for Premium/Wealth Banking Customers",
+                        "Cross-Selling Insurance, Mutual Funds & Investment Products",
+                        "Special Discounts & Merchant Partnerships"
+                    ]
+                },
+                {
+                    "name": "Banking Services & Facilities",
+                    "microcategories": [
+                        "Branch & ATM Locations, Operating Hours & Services",
+                        "Cash Deposit, Withdrawal & Cheque Processing Guidelines",
+                        "International Banking & Foreign Exchange Rates",
+                        "Safe Deposit Lockers & Security Services",
+                        "Requesting Physical Documents (Statements, Passbook, FD Receipts)",
+                        "Banking Support for Senior Citizens & Disabled Customers"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Operation",
+            "subcategories": [
+                {
+                    "name": "Payments & Fund Transfers",
+                    "microcategories": [
+                        "Paying Credit Card Bills, Loan EMIs & Utility Bills",
+                        "Domestic & International Wire Transfers (SWIFT, RTGS, NEFT)",
+                        "Real-Time & Scheduled Bank Transfers (IMPS, UPI, PayNow)",
+                        "Auto-Pay Setup & Managing Standing Instructions",
+                        "Subscription Payments & Recurring Bill Management",
+                        "Payment Failure, Transaction Reversals & Refund Requests",
+                        "Handling Failed/Duplicate Transactions & Reconciliation Issues"
+                    ]
+                },
+                {
+                    "name": "Account & Card Management",
+                    "microcategories": [
+                        "Opening & Closing Bank Accounts (Personal, Joint, Business)",
+                        "Updating KYC, Address, Contact Details & Nominees",
+                        "Requesting a New/Replacement Debit or ATM Card",
+                        "Requesting Account Type Changes (Regular to Premium, Salary to Savings)",
+                        "Adding/Removing Joint Account Holders or Authorized Signatories",
+                        "Managing Linked Accounts & Overdraft Facilities"
+                    ]
+                },
+                {
+                    "name": "Loan & Credit Card Operations",
+                    "microcategories": [
+                        "Applying for New Loans & Credit Cards",
+                        "Loan Restructuring, EMI Rescheduling & Interest Adjustments",
+                        "Credit Limit Increase, Temporary Limit Extension & Cash Advances",
+                        "Loan Foreclosure, Prepayment & Early Closure Charges",
+                        "Credit Card Balance Transfer & EMI Conversion",
+                        "Loan Disbursement Delays & Processing Issues",
+                        "Requesting a Loan Moratorium or Hardship Assistance"
+                    ]
+                },
+                {
+                    "name": "Online Banking & Technical Support",
+                    "microcategories": [
+                        "Internet Banking Login, Activation & Deactivation Issues",
+                        "Resetting Passwords, PINs & Security Questions",
+                        "Mobile App Errors, Bugs & Crashes",
+                        "Linking Bank Accounts with Third-Party Apps (PayPal, Google Pay, Apple Pay)",
+                        "Device Authentication & Multi-Device Access Issues",
+                        "Real-Time Transaction Tracking & Push Notifications"
+                    ]
+                },
+                {
+                    "name": "Cheque & Document-Related Requests",
+                    "microcategories": [
+                        "Requesting a New Cheque Book, Cancelled Cheque & Cheque Leaves",
+                        "Stop Payment Requests & Processing Bounced Cheques",
+                        "Requesting Bank Statements, Tax Documents & Financial Certificates",
+                        "Notarization & Attestation of Banking Documents",
+                        "Handling Post-Dated Cheques & Cheque Clearance Delays"
+                    ]
+                },
+                {
+                    "name": "Fraud, Dispute & Compliance Handling",
+                    "microcategories": [
+                        "Reporting Unauthorized Transactions & Suspicious Activities",
+                        "Disputing Incorrect Bank Charges & Unrecognized Transactions",
+                        "Freezing/Blocking Accounts Due to Fraudulent Activity",
+                        "Chargeback Requests & Merchant Dispute Resolution",
+                        "Investigating Unapproved ATM Withdrawals or POS Transactions",
+                        "Fraud Alerts & Resolving Account Hacking Issues",
+                        "Verifying Account Holders for Security Compliance",
+                        "Preventing Identity Theft & Account Takeover"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Objection",
+            "subcategories": [
+                {
+                    "name": "Fees & Charges Disputes",
+                    "microcategories": [
+                        "Overdraft Fees, Late Payment Penalties & Waiver Requests",
+                        "Disputing Annual Fees & Maintenance Charges",
+                        "Hidden Charges on Transactions & Services",
+                        "ATM Withdrawal Fees & International Transaction Costs",
+                        "Loan Processing Fees, Prepayment Penalties & Interest Adjustments",
+                        "Reversal of Incorrect/Unauthorized Charges"
+                    ]
+                },
+                {
+                    "name": "Service & Experience Issues",
+                    "microcategories": [
+                        "Complaints About Rude or Unhelpful Customer Service",
+                        "Long Hold Times & Call Transfer Issues",
+                        "Delayed or Unresolved Service Requests",
+                        "Unclear, Misleading or Hidden Bank Policies",
+                        "Escalation Requests for Manager/Senior Authority Intervention"
+                    ]
+                },
+                {
+                    "name": "Cancellation Requests & Retention Efforts",
+                    "microcategories": [
+                        "Credit Card & Loan Account Closure Requests",
+                        "Switching Banks Due to Competitor Offers or Poor Service",
+                        "Retention Offers & Alternative Banking Solutions",
+                        "Dissatisfaction With High Fees & Service Charges",
+                        "Closing Bank Accounts Due to Relocation or Inactivity"
+                    ]
+                },
+                {
+                    "name": "Security & Fraud-Related Concerns",
+                    "microcategories": [
+                        "Reporting a Lost or Stolen Debit/Credit Card",
+                        "Blocking Online Banking Due to Unauthorized Access",
+                        "Complaints About Weak Security & Data Breaches",
+                        "Requesting Additional Security Measures (2FA, Biometric, OTP)",
+                        "Identity Theft & Account Takeover Cases",
+                        "Disputing Unauthorized Transactions & Online Payment Fraud"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "client_name": "Ekrem",
+    "client_surname": "OZSOY",
+    "client_id": 40217878,
+    "client_gender": "Male",
+    "call_datetime": "29-10-2024 16:38:06.831",
+    "dialog_id": 0,
+    "repetitive_calls": false,
+    "is_first_call": true,
+    "category_id": 2,
+    "category": "Objection",
+    "subcategory_id": 2,
+    "subcategory": "Cancellation Requests & Retention Efforts",
+    "micro_category_id": -1,
+    "micro_category": "Dissatisfaction With High Fees & Service Charges",
+    "sentiment_type": "angry",
+    "sentiment_magnitude": "extremely",
+    "dialog": [
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Merhaba, ben A Bank Çağrı Merkezi'nden Deniz. Size nasıl yardımcı olabilirim?",
+            "dialog_text_in_en": "Hello, this is Deniz from A Bank's Call Center. How may I assist you?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Merhaba! Ben Ekrem Özsoy. Bankanızdan artık bıktım! Hesabımdan aldığınız yüksek ücret ve hizmet bedellerini açıklamanızı bekliyorum. Bu durumu artık kabul etmiyorum!",
+            "dialog_text_in_en": "Hello! This is Ekrem Özsoy. I’m sick of your bank! I expect an explanation for the excessive fees and service charges you keep deducting from my account. I won’t put up with this anymore!"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Sayın Özsoy, öncelikle yaşadığınız sıkıntıdan dolayı üzgün olduğumuzu belirtmek isterim. Size yardımcı olabilmem için tam olarak hangi ücret veya hizmet bedelinden bahsettiğinizi paylaşabilir misiniz?",
+            "dialog_text_in_en": "Mr. Özsoy, first of all, I would like to express our apologies for the inconvenience you’ve experienced. Could you please specify exactly which fee or service charge you’re referring to, so I can assist you further?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Hangi ücret mi? Daha birkaç gün önce, hesap işlem ücretleri altında 350 TL kesmişsiniz! Üstelik hiçbir bilgi verilmedi. Bu adil mi sizce?",
+            "dialog_text_in_en": "Which fee? Just a few days ago, you deducted 350 TL as a service charge for account transactions! And without any prior notice. Do you think that’s fair?"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Anladım, Sayın Özsoy. Hesap özetinizi inceleyip bu ücreti neden aldığımızı hızlıca kontrol edeceğim. Lütfen birkaç saniye bekleyin.",
+            "dialog_text_in_en": "Understood, Mr. Özsoy. I will quickly review your account statement to check the reason for this charge. Please hold on for a few seconds."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Tamam, bekliyorum ama neyin sonucu olursa olsun bu kabul edilemez!",
+            "dialog_text_in_en": "Alright, I’m waiting, but no matter the reason, this is unacceptable!"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Sayın Özsoy, incelememi tamamladım. Görünüşe göre hesap bakiyeniz belli bir miktarın altına düştüğü için standart hizmet ücretimiz olan 350 TL kesilmiş. Bu ücretle ilgili detaylar hesap sözleşmenizde belirtilmiştir.",
+            "dialog_text_in_en": "Mr. Özsoy, I’ve completed my review. It seems this is a standard service fee of 350 TL, which was applied because your account balance dropped below a certain threshold. The details regarding this fee are mentioned in your account agreement."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Sözleşme mi? Kim okuyor ki o koca kâğıtları? Bu kadar yüksek bir ücret söz konusu olduğunda en azından bir uyarı yapmalıydınız! Ne zamandır bu uygulama var?",
+            "dialog_text_in_en": "Agreement? Who even reads all those pages? When it comes to such a high fee, you should at least give a warning! How long has this been in place?"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Sayın Özsoy, bu uygulama bir süredir yürürlükte ve müşterilerimize hesap açılışında bu konuyla ilgili bilgi veriyoruz. Ancak geri bildiriminizi dikkate alacak ve daha etkili bilgilendirme yöntemleri için önerilerinizi ilgililere ileteceğim.",
+            "dialog_text_in_en": "Mr. Özsoy, this policy has been in place for some time, and we do provide information about it during account opening. However, I will take your feedback into account and relay your suggestions for more effective communication to the relevant teams."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Ben ilgililere falan inanmıyorum artık! Bu paranın iadesini istiyorum. Aksi hâlde hesabımı kapatıp başka bir bankaya geçeceğim. Yeter artık!",
+            "dialog_text_in_en": "I don’t believe in your ‘relevant teams’ anymore! I want this money refunded. Otherwise, I’ll close my account and move to another bank. I’ve had enough!"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Lütfen sakin olun, Sayın Özsoy. Beklentilerinizi anlıyorum. Bu konuda bir istisna olarak, durumunuzu ilgili departmana iletip kesilen ücretin iadesini değerlendirmeleri için talepte bulunabilirim. Sonuç için 24 ila 48 saat içinde size geri dönüş yapacağız.",
+            "dialog_text_in_en": "Please remain calm, Mr. Özsoy. I understand your expectations. As an exception, I can escalate your case to the relevant department and request a review for the refund of the charged amount. We will get back to you within 24 to 48 hours with the outcome."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "İyi, bakalım ne yapacaksınız. Ama bu kadarla kurtulacağınızı sanmayın! Şu anda gerçekten çok kızgınım.",
+            "dialog_text_in_en": "Fine, let’s see what you’ll do. But don’t think this will be the end of it! I’m really angry right now."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Duygularınızı anlıyoruz, Sayın Özsoy. Talebinizi öncelikli olarak ele alacağız ve size en kısa sürede dönüş yapacağız. Sormak istediğiniz başka bir şey var mıydı?",
+            "dialog_text_in_en": "We understand how you feel, Mr. Özsoy. We will prioritize your request and get back to you as soon as possible. Is there anything else you would like to ask?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Hayır, başka bir şey yok. İyi günler.",
+            "dialog_text_in_en": "No, that’s all. Goodbye."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "İyi günler, Sayın Özsoy. Görüşmek üzere.",
+            "dialog_text_in_en": "Goodbye, Mr. Özsoy. Take care."
+        }
+    ]
+}

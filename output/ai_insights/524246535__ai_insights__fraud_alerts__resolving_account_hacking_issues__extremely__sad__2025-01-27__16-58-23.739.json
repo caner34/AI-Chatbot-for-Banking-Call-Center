@@ -1,0 +1,49 @@
+{
+    "Micro-Categories": [
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Reporting Unauthorized Transactions & Suspicious Activities"
+        ],
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Freezing/Blocking Accounts Due to Fraudulent Activity"
+        ],
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Investigating Unapproved ATM Withdrawals or POS Transactions"
+        ],
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Fraud Alerts & Resolving Account Hacking Issues"
+        ],
+        [
+            "Operation",
+            "Account & Card Management",
+            "Requesting a New/Replacement Debit or ATM Card"
+        ]
+    ],
+    "Main Micro-Category": [
+        "Operation",
+        "Fraud, Dispute & Compliance Handling",
+        "Reporting Unauthorized Transactions & Suspicious Activities"
+    ],
+    "Personal Data": [
+        "Aslıhan Özbek",
+        "Müşteri numarası: 88176512",
+        "Doğum tarihi: 29 Temmuz 1988"
+    ],
+    "Sentiment Analysis": {
+        "Sentiment Type": "Endişeli",
+        "Sentiment Magnitude": "Çok"
+    },
+    "Summary": "Müşteri Aslıhan Özbek, hesabında kendisinin yapmadığı işlemler olduğunu fark etmiştir ve bu durumdan dolayı endişe duymaktadır. Çağrı merkezi temsilcisi Ahmet, kimlik doğrulamasından sonra şüpheli işlemleri görmüş ve hemen itiraz formunu başlatıp hesabını geçici olarak dondurma işlemi yapmıştır. Ayrıca, müşteriye yeni bir hesap kartı düzenleneceği bildirilmiştir.",
+    "Operator Performance": "Çağrı merkezi temsilcisi Ahmet, müşterinin endişesini hafifletmek ve olası bir sorunu çözmek için hızlı ve etkin bir şekilde hareket etmiştir. Müşterinin kimliğini doğrulama süreci boyunca nezaketli ve sabırlı olmuş ve gereken tüm adımları anlatmıştır.",
+    "Recommendations": [
+        "Müşteriye, benzer durumların gelecekte nasıl önlenebileceği konusunda bilgi verilebilir.",
+        "Müşteriye, işlemlerinin durumunu takip edebilmesi için bir takip numarası verilmesi iyi olabilir."
+    ]
+}

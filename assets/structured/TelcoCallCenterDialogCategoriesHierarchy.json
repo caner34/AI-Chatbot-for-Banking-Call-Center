@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "name": "Information",
+      "subcategories": [
+        {
+          "name": "Product/Service Information",
+          "microcategories": [
+            "Learning about packages, offers, and promotions",
+            "Clarifying terms and conditions",
+            "Service coverage or availability inquiries",
+            "Comparing plans or services",
+            "Product specifications or feature details"
+          ]
+        },
+        {
+          "name": "Billing Information",
+          "microcategories": [
+            "Bill Overview and Breakdown",
+            "Billing Cycle and Deadlines",
+            "Payment Methods and Adjustments",
+            "Historical Billing and Records"
+          ]
+        },
+        {
+          "name": "Account Information",
+          "microcategories": [
+            "Account Updates and Recovery",
+            "Account Information Overview"
+          ]
+        },
+        {
+          "name": "Technical Information",
+          "microcategories": [
+            "Troubleshooting steps or FAQs",
+            "Service outage or downtime updates",
+            "Equipment setup or usage guidelines",
+            "Compatibility with devices or systems",
+            "Explanation of technical terms or processes"
+          ]
+        },
+        {
+          "name": "Company Policies",
+          "microcategories": [
+            "Privacy policy and data usage details",
+            "Refund and return policy explanations",
+            "Cancellation and contract terms",
+            "Service-level agreements (SLAs)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operation",
+      "subcategories": [
+        {
+          "name": "Billing Operations",
+          "microcategories": [
+            "Payment Processes",
+            "Billing Disputes and Adjustments",
+            "Error Correction"
+          ]
+        },
+        {
+          "name": "Account Operations",
+          "microcategories": [
+            "Changing Plan or Package",
+            "Adding/Removing Services",
+            "Updating Account Preferences",
+            "Transferring Account Ownership"
+          ]
+        },
+        {
+          "name": "Technical Operations",
+          "microcategories": [
+            "Reporting a Technical Issue",
+            "Scheduling a Technician Visit",
+            "Requesting Equipment Replacement",
+            "Rebooting/Resetting Services",
+            "Testing Service Performance or Speed"
+          ]
+        },
+        {
+          "name": "Subscription Operations",
+          "microcategories": [
+            "Activating a New Service or Subscription",
+            "Cancelling a Subscription or Service",
+            "Downgrading to a Lower-Tier Plan"
+          ]
+        },
+        {
+          "name": "Customer Support Requests",
+          "microcategories": [
+            "Requesting Follow-up on a Previous Issue",
+            "Checking Ticket or Service Status",
+            "Providing Feedback or Complaints",
+            "Requesting a Supervisor or Escalation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Objection",
+      "subcategories": [
+        {
+          "name": "Objection to Billing",
+          "microcategories": [
+            "Disputing Overcharges or Unexpected Fees",
+            "Requesting Bill Adjustment or Waiver",
+            "Complaints About Late Fees",
+            "Price Mismatch or Discrepancy Concerns",
+            "Objections to Payment Deadlines"
+          ]
+        },
+        {
+          "name": "Objection to Service Quality",
+          "microcategories": [
+            "Complaints About Poor Network or Service Quality",
+            "Criticism About the Product or Experience",
+            "Requests for Service Improvement",
+            "Threats of Negative Reviews or Ratings"
+          ]
+        },
+        {
+          "name": "Cancellation Requests",
+          "microcategories": [
+            "Requests to Cancel a Service or Subscription",
+            "Expressing Dissatisfaction Leading to Churn",
+            "Retention Offers or Discounts",
+            "Dissatisfaction with Issue Resolution",
+            "Attempting to Reduce Costs"
+          ]
+        },
+        {
+          "name": "Price Objection",
+          "microcategories": [
+            "Complaints About High Pricing",
+            "Requesting Discounts or Customized Plans",
+            "Threatening to Switch Providers Due to Costs"
+          ]
+        },
+        {
+          "name": "Contract or Policy Objection",
+          "microcategories": [
+            "Disagreements About Lock-in Periods or Termination Fees",
+            "Objections to Hidden Terms or Clauses",
+            "Criticism of Company Policies",
+            "Refusal to Accept Contract Renewals"
+          ]
+        }
+      ]
+    }
+  ]
+}

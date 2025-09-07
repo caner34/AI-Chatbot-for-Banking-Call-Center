@@ -1,0 +1,90 @@
+{
+    "client_name": "Birgul",
+    "client_surname": "BAYSAL",
+    "client_id": 71411904,
+    "client_gender": "Female",
+    "call_datetime": "24-10-2024 20:29:00.675",
+    "dialog_id": 0,
+    "repetitive_calls": false,
+    "is_first_call": true,
+    "category_id": 1,
+    "category": "Operation",
+    "subcategory_id": 5,
+    "subcategory": "Fraud, Dispute & Compliance Handling",
+    "micro_category_id": -1,
+    "micro_category": "Freezing/Blocking Accounts Due to Fraudulent Activity",
+    "sentiment_type": "sad",
+    "sentiment_magnitude": "averagely",
+    "dialog": [
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Merhaba, A Bank Müşteri Hizmetleri’ne hoş geldiniz. Ben Mehmet. Size nasıl yardımcı olabilirim?",
+            "dialog_text_in_en": "Hello, welcome to A Bank Customer Services. I’m Mehmet. How can I assist you?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Merhaba Mehmet Bey, ben Birgül Baysal. Bugün hesabımdan şüpheli bir işlem fark ettim ve hemen aramam gerektiğini düşündüm.",
+            "dialog_text_in_en": "Hello Mr. Mehmet, this is Birgül Baysal. Today, I noticed a suspicious transaction in my account and thought I should call immediately."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Anladım Birgül Hanım. Endişelerinizi çözmek için buradayız. Şimdi, hangi hesap üzerinde şüpheli işlem gördünüz? Bireysel hesabınız mı yoksa başka bir hesap mı?",
+            "dialog_text_in_en": "Understood, Ms. Birgül. We’re here to address your concerns. Now, on which account did you notice the suspicious activity? Your personal account or another account?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Bireysel hesabımda gördüm. Dün gece fark ettim ama işlemi ben yapmadım. Lütfen hesabımı derhal dondurabilir misiniz?",
+            "dialog_text_in_en": "I noticed it on my personal account. I saw it last night, but I didn’t make the transaction. Can you please block my account immediately?"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Tabii ki, hemen yardımcı olacağım. Hesabınızı geçici olarak donduracağım ki başka işlemler yapılmasın. Ancak doğrulama için hesabınıza kayıtlı kimlik numaranızı ve doğum tarihinizi alabilir miyim?",
+            "dialog_text_in_en": "Of course, I will assist you right away. I’ll temporarily block your account to prevent further transactions. But for verification, can I have your ID number and date of birth registered to your account?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Tabii, kimlik numaram 12345678901 ve doğum tarihim 15.02.1982.",
+            "dialog_text_in_en": "Sure, my ID number is 12345678901 and my date of birth is 15.02.1982."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Teşekkürler Birgül Hanım. Hesabınızı başarıyla dondurdum. Şimdi, işlemle ilgili detaylara bakalım. Fark ettiğiniz işlem hakkında bilgi verir misiniz?",
+            "dialog_text_in_en": "Thank you, Ms. Birgül. I have successfully frozen your account. Now, let’s review the details of the transaction. Can you tell me about the transaction you noticed?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Tabii. Hesabıma giriş yaptığımda 5.000 TL'lik bir transfer işlemi gördüm. Transfer 24 Ekim sabah 10:18'de yapılmış. Ama ben o sırada hiçbir işlem yapmadım.",
+            "dialog_text_in_en": "Sure. When I logged into my account, I saw a transfer of 5,000 TL. The transfer was made on October 24th at 10:18 in the morning. But I didn’t make any transaction at that time."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Anladım. Hemen bu işlemi ve ilgili hesabı incelemeye alacağım. Size güvenliğiniz için birkaç öneri paylaşacağım. Şifrenizi yakın zamanda değiştirdiniz mi?",
+            "dialog_text_in_en": "I see. I’m going to investigate this transaction and the related account right away. I’ll also share a few suggestions for your security. Have you changed your password recently?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Hayır, şifremi bir süredir değiştirmedim. Ama kimseyle de paylaşmadım. Bunu yapan kişi benim bilgime nasıl ulaştı, bilmiyorum.",
+            "dialog_text_in_en": "No, I haven’t changed my password recently. But I also haven’t shared it with anyone. I don’t know how someone got access to my information."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Haklısınız, bu oldukça rahatsız edici bir durum. Hesabınızı güvence altına almak adına hemen yeni bir şifre belirlemeniz önemli. Ayrıca, telefonunuza gönderdiğimiz doğrulama mesajlarına dikkat edin. Şimdi işlemi detaylı olarak inceledikten sonra size geri dönüş yapacağız. Başka bir konuda yardımcı olabilir miyim?",
+            "dialog_text_in_en": "You’re right, this is a very troubling situation. To secure your account, it’s important to create a new password immediately. Also, make sure to keep an eye on the verification messages we send to your phone. We will review the transaction in detail and get back to you. Is there anything else I can assist you with?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Şimdilik başka bir şey yok. Sizin tarafınızdan bana geri dönüş yapılmasını bekleyeceğim. Umarım bu durum bir an önce çözülür.",
+            "dialog_text_in_en": "There’s nothing else for now. I’ll wait for you to get back to me. I hope this issue gets resolved as soon as possible."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Elbette, Birgül Hanım. Bu durumu öncelikli olarak ele alacağımıza emin olabilirsiniz. Yardım etmek için buradayız. İyi akşamlar dilerim.",
+            "dialog_text_in_en": "Of course, Ms. Birgül. Rest assured that we’ll handle this matter as a priority. We’re here to help. Have a good evening."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Teşekkür ederim, Mehmet Bey. İyi akşamlar.",
+            "dialog_text_in_en": "Thank you, Mr. Mehmet. Good evening."
+        }
+    ]
+}

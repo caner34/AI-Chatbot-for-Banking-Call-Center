@@ -1,0 +1,54 @@
+{
+    "Micro-Categories": [
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Reporting Unauthorized Transactions & Suspicious Activities"
+        ],
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Freezing/Blocking Accounts Due to Fraudulent Activity"
+        ],
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Fraud Alerts & Resolving Account Hacking Issues"
+        ],
+        [
+            "Operation",
+            "Fraud, Dispute & Compliance Handling",
+            "Verifying Account Holders for Security Compliance"
+        ],
+        [
+            "Information",
+            "Digital Banking & Security Awareness",
+            "Reporting Suspicious Activities, Phishing, & Scam Prevention"
+        ],
+        [
+            "Information",
+            "Digital Banking & Security Awareness",
+            "Multi-Factor Authentication (OTP, Biometrics) & Security Alerts"
+        ]
+    ],
+    "Main Micro-Category": [
+        "Operation",
+        "Fraud, Dispute & Compliance Handling",
+        "Reporting Unauthorized Transactions & Suspicious Activities"
+    ],
+    "Personal Data": [
+        "Birgül Baysal",
+        "12345678901",
+        "15.02.1982"
+    ],
+    "Sentiment Analysis": {
+        "Sentiment Type": "neutral",
+        "Sentiment Magnitude": "averagely"
+    },
+    "Summary": "Müşteri, Birgül Hanım, hesabında tanımadığı bir işlem olduğunu fark etmiş ve bankayı hemen aramış. Müşteri hizmetleri yetkilisi, Mehmet Bey, hesabı hemen dondurmuş ve işlemi incelemeye alacaklarını belirtmiş. Ayrıca Birgül Hanım'a şifresini değiştirmesi ve telefonuna gelecek doğrulama mesajlarına dikkat etmesi gerektiğini söylemiş.",
+    "Operator Performance": "Mehmet Bey, durumu hızlı ve etkili bir şekilde ele almıştır. Müşterinin endişelerini dinlemiş ve hesabını koruma altına almak için gerekli adımları atmıştır. Ayrıca, hesabı incelemeye alacaklarını ve sonuçları müşteriye bildireceklerini belirtmiştir.",
+    "Recommendations": [
+        "Müşteriye, nasıl bir işlem olduğunu daha detaylı bir şekilde anlatılabilirdi. Müşterinin bilgi alabileceği bir kaynak veya broşür sunulabilirdi.",
+        "Müşteriye, bu tür durumlarda yapılması gerekenler konusunda daha fazla bilgi verilebilirdi."
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "client_name": "Aslihan",
+    "client_surname": "OZBEK",
+    "client_id": 88176512,
+    "client_gender": "Female",
+    "call_datetime": "23-02-2023 05:53:33.611",
+    "dialog_id": 0,
+    "repetitive_calls": false,
+    "is_first_call": true,
+    "category_id": 1,
+    "category": "Operation",
+    "subcategory_id": 5,
+    "subcategory": "Fraud, Dispute & Compliance Handling",
+    "micro_category_id": -1,
+    "micro_category": "Fraud Alerts & Resolving Account Hacking Issues",
+    "sentiment_type": "sad",
+    "sentiment_magnitude": "extremely",
+    "dialog": [
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Merhaba, A Bankası Çağrı Merkezi’ne hoş geldiniz. Ben Ahmet. Size nasıl yardımcı olabilirim?",
+            "dialog_text_in_en": "Hello, welcome to A Bank's Call Center. I am Ahmet. How may I assist you?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Merhaba... Ben Aslıhan Özbek... Hesabımla ilgili ciddi bir problemim var. Çok endişeliyim...",
+            "dialog_text_in_en": "Hello... I'm Aslıhan Özbek... I have a serious problem with my account. I’m very worried..."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Üzgün hissettiğinizi duyduğuma üzüldüm, Aslıhan Hanım. Lütfen bana durumu anlatın, elimden gelenin en iyisiyle yardımcı olmaya çalışacağım.",
+            "dialog_text_in_en": "I’m sorry to hear you’re feeling this way, Ms. Aslıhan. Please tell me the situation, and I will do my best to help you."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Hesabım çalınmış olabilir ya da izinsiz işlemler yapılmış. Dün gece bazı işlemler gördüm ve benim haberim yoktu...",
+            "dialog_text_in_en": "My account might have been hacked, or some unauthorized transactions were carried out. Last night, I saw some transactions I didn’t authorize..."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Anladım. Hemen yardımcı olmaya başlayalım. Güvenliğiniz için birkaç kimlik doğrulama sorusu sormam gerekiyor. Uygun mudur?",
+            "dialog_text_in_en": "I understand. Let’s get started with helping you right away. For security purposes, I’ll need to ask a few identity verification questions. Is that okay?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Evet, tabii... Sorabilirsiniz.",
+            "dialog_text_in_en": "Yes, of course... You can ask."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Teşekkür ederim. İlk olarak, müşteri numaranızı ya da T.C. kimlik numaranızı alabilir miyim?",
+            "dialog_text_in_en": "Thank you. First, can I have your customer number or ID number?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Müşteri numaram 88176512.",
+            "dialog_text_in_en": "My customer number is 88176512."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Teşekkür ederim, Aslıhan Hanım. Hesabınızla ilgili doğrulama işlemi için kayıtlı doğum tarihinizi alabilir miyim?",
+            "dialog_text_in_en": "Thank you, Ms. Aslıhan. Can I have your registered date of birth to proceed with account verification?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "29 Temmuz 1988.",
+            "dialog_text_in_en": "July 29, 1988."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Harika. Kimlik doğrulama işleminiz tamamlandı. Şimdi hesabınıza erişiyorum. Lütfen bir dakika bekleyin.",
+            "dialog_text_in_en": "Great. Your identity verification is complete. I’m now accessing your account. Please wait a moment."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Tabii, lütfen kontrol edin... Çok korkuyorum.",
+            "dialog_text_in_en": "Of course, please check... I’m so scared."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Anlıyorum, Aslıhan Hanım. Lütfen endişelenmeyin, durumu çözmek için buradayız. Şimdi hesabınızda birkaç şüpheli işlem görüyorum. Bunları size söyleyeceğim. Siz mi yaptınız diye teyit etmemiz gerekiyor.",
+            "dialog_text_in_en": "I understand, Ms. Aslıhan. Please don’t worry. We are here to resolve this. I see a few suspicious transactions on your account. I’ll list them, and we need to confirm if you initiated them."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Tamam, söyleyin... Ama haberim olduğunu sanmıyorum.",
+            "dialog_text_in_en": "Okay, go ahead... But I don’t think I’m aware of them."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "20 Şubat 2023’te, 1.200 TL’lik bir işlem yapılmış Amazon üzerinde. Ayrıca aynı gün 3.500 TL’lik bir işlem Trendyol üzerinden. Bunlar size ait mi?",
+            "dialog_text_in_en": "On February 20, 2023, there was a transaction of 1,200 TL on Amazon. Additionally, on the same day, there was a 3,500 TL transaction on Trendyol. Were these made by you?"
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Hayır, kesinlikle benimle ilgisi yok. Bu işlemler bana ait değil!",
+            "dialog_text_in_en": "No, absolutely not. These transactions have nothing to do with me!"
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Anladım, Aslıhan Hanım. O zaman hemen şüpheli işlemler için bir itiraz formu başlatalım ve hesabınızı geçici olarak donduralım. Bu süreç birkaç iş günü sürebilir. Size ayrıca yeni bir hesap kartı düzenleyeceğiz.",
+            "dialog_text_in_en": "Understood, Ms. Aslıhan. Let’s immediately initiate a dispute form for these suspicious transactions and temporarily freeze your account. This process may take a few business days. We will also issue you a new account card."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Tamam, lütfen ne gerekiyorsa yapın. Tüm param tehlikede diye çok korkuyorum.",
+            "dialog_text_in_en": "Okay, please do whatever is necessary. I’m so scared that all my money is at risk."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Lütfen sakin olun, Aslıhan Hanım. Bu işlemleri durdurmak ve hesabınızı güvende tutmak için gereken her şeyi yapıyoruz. Son olarak, size itiraz numaranızı e-posta ve SMS yoluyla ileteceğiz.",
+            "dialog_text_in_en": "Please stay calm, Ms. Aslıhan. We are doing everything to stop these transactions and keep your account secure. Lastly, we will send you your dispute reference number via email and SMS."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Çok teşekkür ederim... Umarım her şey hallolur.",
+            "dialog_text_in_en": "Thank you so much... I hope everything gets resolved."
+        },
+        {
+            "agent_type": "OPERATOR",
+            "dialog_text": "Rica ederim, Aslıhan Hanım. Sorununuzu çözene kadar biz buradayız. Başka sorunuz olursa 7/24 bize ulaşabilirsiniz. İyi günler dilerim.",
+            "dialog_text_in_en": "You’re welcome, Ms. Aslıhan. We are here until your issue is resolved. If you have any other questions, please don’t hesitate to contact us 24/7. Have a good day."
+        },
+        {
+            "agent_type": "CLIENT",
+            "dialog_text": "Teşekkür ederim. İyi çalışmalar.",
+            "dialog_text_in_en": "Thank you. Have a good day at work."
+        }
+    ]
+}

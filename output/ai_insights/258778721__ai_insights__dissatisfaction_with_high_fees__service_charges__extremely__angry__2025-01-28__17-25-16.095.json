@@ -1,0 +1,43 @@
+{
+    "Micro-Categories": [
+        [
+            "Objection",
+            "Fees & Charges Disputes",
+            "Disputing Annual Fees & Maintenance Charges"
+        ],
+        [
+            "Objection",
+            "Service & Experience Issues",
+            "Complaints About Rude or Unhelpful Customer Service"
+        ],
+        [
+            "Objection",
+            "Cancellation Requests & Retention Efforts",
+            "Switching Banks Due to Competitor Offers or Poor Service"
+        ],
+        [
+            "Bank Policies, Terms & Compliance",
+            "Changes in Interest Rates, Banking Fees & Service Charges",
+            "Government Schemes, Subsidies & Tax Benefits in Banking"
+        ]
+    ],
+    "Main Micro-Category": [
+        "Objection",
+        "Fees & Charges Disputes",
+        "Disputing Annual Fees & Maintenance Charges"
+    ],
+    "Personal Data": [
+        "Ekrem Özsoy"
+    ],
+    "Sentiment Analysis": {
+        "Sentiment Type": "kızgın",
+        "Sentiment Magnitude": "son derece"
+    },
+    "Summary": "Müşteri, Ekrem Özsoy, hesabından alınan 350 TL'lik ücretten dolayı memnuniyetsizlik belirtmiştir. Bu durumu kabul etmeyen müşteri, ücretin iadesini talep etmiş ve aksi takdirde bankayı değiştireceğini belirtmiştir. Operatör, durumu anladığını belirtip, ücretin iadesi konusunda ilgili departmana talepte bulunacağını belirtmiştir.",
+    "Operator Performance": "Operatör, müşterinin sinirli olduğu bir durumda sakinliğini korumuş ve müşterinin talebini dikkate alıp çözüm için adım atacağını belirtmiştir. Ancak, operatörün, müşterinin hesabındaki düşük bakiye sebebiyle kesilen ücret konusunda daha fazla açıklama yapması gerekiyordu.",
+    "Recommendations": [
+        "Operatörler, müşterilere hesaplarında düşük bakiye olduğunda ve bu durumun neden olduğu ücretler hakkında daha fazla bilgi vermelidir.",
+        "Banka, yüksek tutarlı ücretlerin otomatik olarak kesilmesi durumunda müşterilere önceden bilgi vermeli veya onlardan onay almalıdır.",
+        "Müşteri memnuniyetini artırmak ve müşteri kaybını önlemek için, banka belirli durumlarda bu tür ücretlerin iadesini yapmayı düşünmelidir."
+    ]
+}
