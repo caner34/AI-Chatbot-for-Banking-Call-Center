@@ -125,7 +125,7 @@ def generate_sample_call_center_dialog(
     return json_result
 
 
-def generate_random_dialogs(randomly_generate: bool = True, number_of_words: int = 500, language: str = "Turkish"):
+def generate_random_dialogs(randomly_generate: bool = True, number_of_words: int = 500, language: str = "Spanish"):
 
     character_info = generate_a_new_client_character(randomly_generate=randomly_generate)
 
