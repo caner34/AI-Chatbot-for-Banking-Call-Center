@@ -82,43 +82,43 @@ voice_options = {
 # )
 
 
-def synthesize_text_to_speech(
-        text, language_code, ssml_gender, voice_code: str = 'tr-TR-Wavenet-D'
-):
-    """
-    Synthesizes speech from the input text using Google Cloud Text-to-Speech API.
-    Args:
-        text (str): The input text to be converted into speech.
-        language_code (str): Language code for Turkish (e.g., 'tr-TR').
-    Returns:
-        bytes: The audio content in bytes.
-    """
-    try:
-        # Initialize the Text-to-Speech client
-        client = texttospeech.TextToSpeechClient()
-
-        # Set the input text
-        synthesis_input = texttospeech.SynthesisInput(text=text)
-
-        # Configure the voice (language and gender)
-        voice = texttospeech.VoiceSelectionParams(
-            language_code=language_code,
-            name=voice_code,
-            ssml_gender=ssml_gender
-        )
-
-        # Select audio format
-        audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)
-
-        # Perform text-to-speech request
-        response = client.synthesize_speech(
-            input=synthesis_input, voice=voice, audio_config=audio_config
-        )
-
-        return response.audio_content
-    except Exception as e:
-        st.error(f"An error occurred: {e}")
-        return None
+# def synthesize_text_to_speech(
+#         text, language_code, ssml_gender, voice_code: str = 'tr-TR-Wavenet-D'
+# ):
+#     """
+#     Synthesizes speech from the input text using Google Cloud Text-to-Speech API.
+#     Args:
+#         text (str): The input text to be converted into speech.
+#         language_code (str): Language code for Turkish (e.g., 'tr-TR').
+#     Returns:
+#         bytes: The audio content in bytes.
+#     """
+#     try:
+#         # Initialize the Text-to-Speech client
+#         client = texttospeech.TextToSpeechClient()
+#
+#         # Set the input text
+#         synthesis_input = texttospeech.SynthesisInput(text=text)
+#
+#         # Configure the voice (language and gender)
+#         voice = texttospeech.VoiceSelectionParams(
+#             language_code=language_code,
+#             name=voice_code,
+#             ssml_gender=ssml_gender
+#         )
+#
+#         # Select audio format
+#         audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)
+#
+#         # Perform text-to-speech request
+#         response = client.synthesize_speech(
+#             input=synthesis_input, voice=voice, audio_config=audio_config
+#         )
+#
+#         return response.audio_content
+#     except Exception as e:
+#         st.error(f"An error occurred: {e}")
+#         return None
 
 
 def play_audio_directly(audio_bytes):
@@ -164,65 +164,65 @@ def play_audio_directly(audio_bytes):
     return
 
 
-def vocalize_text(agent_gender, dialog_text, language_code, client=None):
-
-    # st.write("STEP 0", " - agent_gender:", agent_gender, " - language_code:", language_code)  # DELETE LATER
-
-    ssml_gender = texttospeech.SsmlVoiceGender.MALE if agent_gender == "Male" else texttospeech.SsmlVoiceGender.FEMALE
-    voice_code = [v['voice_code'] for (k, v) in voice_options.items()
-                  if v['language_code'] == language_code and v['ssml_gender'] == ssml_gender][0]
-
-    # st.write("STEP 1")  # DELETE LATER
-
-    try:
-        if client is None:
-            # Initialize the Text-to-Speech client
-            client = texttospeech.TextToSpeechClient()
-
-        # st.write("STEP 2")  # DELETE LATER
-
-        # Set the input text
-        synthesis_input = texttospeech.SynthesisInput(text=dialog_text)
-
-        # st.write("STEP 3")  # DELETE LATER
-
-        # Configure the voice (language and gender)
-        voice = texttospeech.VoiceSelectionParams(
-            language_code=language_code,
-            name=voice_code,
-            ssml_gender=ssml_gender
-        )
-
-        # st.write("STEP 4")  # DELETE LATER
-
-        # Select audio format
-        audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)
-
-        # st.write("STEP 5")  # DELETE LATER
-
-        # Perform text-to-speech request
-        response = client.synthesize_speech(
-            input=synthesis_input, voice=voice, audio_config=audio_config
-        )
-
-        # st.write("STEP 6", " - response: ", len(response.audio_content))  # DELETE LATER
-
-        play_audio_directly(response.audio_content)
-
-        # st.write("STEP 7")  # DELETE LATER
-
-        st.write("")
-        st.write("")
-        st.write("")
-        st.write("")
-        st.write("")
-
-        return
-
-
-    except Exception as e:
-        st.error(f"An error occurred: {e}")
-        return None
+# def vocalize_text(agent_gender, dialog_text, language_code, client=None):
+#
+#     # st.write("STEP 0", " - agent_gender:", agent_gender, " - language_code:", language_code)  # DELETE LATER
+#
+#     ssml_gender = texttospeech.SsmlVoiceGender.MALE if agent_gender == "Male" else texttospeech.SsmlVoiceGender.FEMALE
+#     voice_code = [v['voice_code'] for (k, v) in voice_options.items()
+#                   if v['language_code'] == language_code and v['ssml_gender'] == ssml_gender][0]
+#
+#     # st.write("STEP 1")  # DELETE LATER
+#
+#     try:
+#         if client is None:
+#             # Initialize the Text-to-Speech client
+#             client = texttospeech.TextToSpeechClient()
+#
+#         # st.write("STEP 2")  # DELETE LATER
+#
+#         # Set the input text
+#         synthesis_input = texttospeech.SynthesisInput(text=dialog_text)
+#
+#         # st.write("STEP 3")  # DELETE LATER
+#
+#         # Configure the voice (language and gender)
+#         voice = texttospeech.VoiceSelectionParams(
+#             language_code=language_code,
+#             name=voice_code,
+#             ssml_gender=ssml_gender
+#         )
+#
+#         # st.write("STEP 4")  # DELETE LATER
+#
+#         # Select audio format
+#         audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)
+#
+#         # st.write("STEP 5")  # DELETE LATER
+#
+#         # Perform text-to-speech request
+#         response = client.synthesize_speech(
+#             input=synthesis_input, voice=voice, audio_config=audio_config
+#         )
+#
+#         # st.write("STEP 6", " - response: ", len(response.audio_content))  # DELETE LATER
+#
+#         play_audio_directly(response.audio_content)
+#
+#         # st.write("STEP 7")  # DELETE LATER
+#
+#         st.write("")
+#         st.write("")
+#         st.write("")
+#         st.write("")
+#         st.write("")
+#
+#         return
+#
+#
+#     except Exception as e:
+#         st.error(f"An error occurred: {e}")
+#         return None
 
 
 def generate_scenario(randomly_generate: bool = True):
@@ -311,14 +311,15 @@ def main():
 
     menu_selection = st.sidebar.radio("Modules", list(list_menu_items.values()), on_change=on_menu_selection_change)
 
-    if menu_selection == list_menu_items['tts_tester']:
-        page_text_to_speech()
-    elif menu_selection == list_menu_items['call_center_simulator']:
+
+    if menu_selection == list_menu_items['call_center_simulator']:
         page_call_center_simulator()
     elif menu_selection == list_menu_items['call_center_dialog_ai_insights']:
         page_call_center_dialog_ai_insights()
     elif menu_selection == list_menu_items['take_action_for_call']:
         page_take_action_for_call()
+    # elif menu_selection == list_menu_items['tts_tester']:
+    #     page_text_to_speech()
     elif menu_selection == list_menu_items['file_upload']:
         page_pdf_upload()
     elif menu_selection == list_menu_items['about']:
@@ -411,40 +412,40 @@ def main():
 
 
 # Streamlit UI
-def page_text_to_speech():
-    st.title(cr_translation['tr_gb_tts_generator'])
-    st.write(cr_translation['tr_gb_tts_generator_description'])
-
-    # Input area for Turkish text
-    text = st.text_area(cr_translation["enter_text"], cr_translation['text_area_default_text'])  # Default: "Merhaba"
-
-    default_index_select_box_voice_options = list(voice_options.keys()).index(
-        [k for k, v in voice_options.items() if v['language_code'].startswith('tr-')][0])
-    select_box_voice_options = st.selectbox(
-        label=cr_translation['choose_a_voice_option'], options=list(voice_options.keys()), index=default_index_select_box_voice_options
-    )
-
-    if select_box_voice_options is None:
-        select_box_voice_options = [k for k, v in voice_options.items() if v['language_code'].startswith('tr-')][-1]
-
-    selected_language_code = voice_options[select_box_voice_options]['language_code']
-    selected_voice_code = voice_options[select_box_voice_options]['voice_code']
-    selected_ssml_gender = voice_options[select_box_voice_options]['ssml_gender']
-
-    if st.button(cr_translation['generate_speech']):
-        if text.strip():
-            output_file = "output.mp3"
-            audio_bytes = synthesize_text_to_speech(
-                text=text, language_code=selected_language_code, ssml_gender=selected_ssml_gender,
-                voice_code=selected_voice_code
-            )
-            if audio_bytes:
-                play_audio_directly(audio_bytes)
-
-            # # Audio player for generated speech
-            # st.audio(output_file, format='audio/mp3')
-        else:
-            st.warning(cr_translation['please_enter_some_text'])
+# def page_text_to_speech():
+#     st.title(cr_translation['tr_gb_tts_generator'])
+#     st.write(cr_translation['tr_gb_tts_generator_description'])
+#
+#     # Input area for Turkish text
+#     text = st.text_area(cr_translation["enter_text"], cr_translation['text_area_default_text'])  # Default: "Merhaba"
+#
+#     default_index_select_box_voice_options = list(voice_options.keys()).index(
+#         [k for k, v in voice_options.items() if v['language_code'].startswith('tr-')][0])
+#     select_box_voice_options = st.selectbox(
+#         label=cr_translation['choose_a_voice_option'], options=list(voice_options.keys()), index=default_index_select_box_voice_options
+#     )
+#
+#     if select_box_voice_options is None:
+#         select_box_voice_options = [k for k, v in voice_options.items() if v['language_code'].startswith('tr-')][-1]
+#
+#     selected_language_code = voice_options[select_box_voice_options]['language_code']
+#     selected_voice_code = voice_options[select_box_voice_options]['voice_code']
+#     selected_ssml_gender = voice_options[select_box_voice_options]['ssml_gender']
+#
+#     if st.button(cr_translation['generate_speech']):
+#         if text.strip():
+#             output_file = "output.mp3"
+#             audio_bytes = synthesize_text_to_speech(
+#                 text=text, language_code=selected_language_code, ssml_gender=selected_ssml_gender,
+#                 voice_code=selected_voice_code
+#             )
+#             if audio_bytes:
+#                 play_audio_directly(audio_bytes)
+#
+#             # # Audio player for generated speech
+#             # st.audio(output_file, format='audio/mp3')
+#         else:
+#             st.warning(cr_translation['please_enter_some_text'])
 
 
 def page_call_center_simulator():
@@ -459,8 +460,8 @@ def page_call_center_simulator():
     st.write(cr_translation['banking_call_center_simulator_page_explanation'])
     st.write("")
 
-    # Initialize the Text-to-Speech client
-    client = texttospeech.TextToSpeechClient()
+    # # Initialize the Text-to-Speech client
+    # client = texttospeech.TextToSpeechClient()
 
     if globals.dialog_scenario_info is not None:
         st.button(label=cr_translation['export_scenario_as_json'], on_click=export_scenario_as_json)
@@ -525,30 +526,32 @@ def page_call_center_simulator():
             with col1:
                 st.markdown(f"**{d['agent_type']} (English):** {d['dialog_text_in_en']}")
 
-            with col2:
-                cr_agent_gender = globals.dialog_scenario_info['client_gender'] if d['agent_type'] == "CLIENT" else (
-                    cr_translation['female'] if globals.dialog_scenario_info['client_gender'] == cr_translation['male']
-                    else cr_translation['male'])
-                # White Play Button for English
-                st.button(
-                    "🇬🇧", key=f"play_en_{i}", on_click=vocalize_text,
-                    args=(cr_agent_gender, d['dialog_text_in_en'], "en-GB", client)
-                )
+            # Commenting Out Because we won't use Txt2Speech right now
+            # with col2:
+            #     cr_agent_gender = globals.dialog_scenario_info['client_gender'] if d['agent_type'] == "CLIENT" else (
+            #         cr_translation['female'] if globals.dialog_scenario_info['client_gender'] == cr_translation['male']
+            #         else cr_translation['male'])
+            #     # White Play Button for English
+            #     st.button(
+            #         "🇬🇧", key=f"play_en_{i}", on_click=vocalize_text,
+            #         args=(cr_agent_gender, d['dialog_text_in_en'], "en-GB", client)
+            #     )
 
             col1, col2 = st.columns([0.9, 0.1])
 
             with col1:
                 st.markdown(f"**{d['agent_type']} ({cr_translation['turkish']}):** {d['dialog_text']}")
 
-            with col2:
-                cr_agent_gender = globals.dialog_scenario_info['client_gender'] if d['agent_type'] == "CLIENT" else (
-                    cr_translation['female'] if globals.dialog_scenario_info['client_gender'] == cr_translation['male']
-                    else cr_translation['male'])
-                # Green Play Button for Turkish
-                st.button(
-                    "🇹🇷", key=f"play_tr_{i}", on_click=vocalize_text,
-                    args=(cr_agent_gender, d['dialog_text'], "tr-TR", client,)
-                )
+            # Commenting Out Because we won't use Txt2Speech right now
+            # with col2:
+            #     cr_agent_gender = globals.dialog_scenario_info['client_gender'] if d['agent_type'] == "CLIENT" else (
+            #         cr_translation['female'] if globals.dialog_scenario_info['client_gender'] == cr_translation['male']
+            #         else cr_translation['male'])
+            #     # Green Play Button for Turkish
+            #     st.button(
+            #         "🇹🇷", key=f"play_tr_{i}", on_click=vocalize_text,
+            #         args=(cr_agent_gender, d['dialog_text'], "tr-TR", client,)
+            #     )
     else:
         st.info(cr_translation['no_call_center_scenario'])
     return

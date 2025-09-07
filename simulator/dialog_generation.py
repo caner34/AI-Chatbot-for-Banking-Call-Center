@@ -52,7 +52,7 @@ def generate_sample_call_center_dialog(
         sentiment_magnitude: sentiment_magnitude_options,
         number_of_words: int = 500,
         company_name: str = "A Bank",
-        language: str = "Turkish",
+        language: str = "Spanish",
         client: OpenAI | None = None
 ):
     if client is None:
