@@ -2,3 +2,5 @@
 /.venv/
 /Arabic-Focused AI Chatbots.zip
 /temp_key.json
+/.idea/
+/.env

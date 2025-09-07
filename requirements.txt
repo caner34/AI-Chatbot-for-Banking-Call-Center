@@ -1,4 +1,4 @@
-# google-cloud==0.34.0
+#==google-cloud==0.34.0
 google-cloud-texttospeech==2.29.0
 twilio==9.8.0
 scikit-learn==1.7.1
@@ -7,3 +7,4 @@ PyPDF2==3.0.1
 python-docx==1.2.0
 streamlit==1.49.1
 pandas==2.3.2
+openai==1.106.1
