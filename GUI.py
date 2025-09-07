@@ -540,7 +540,7 @@ def page_call_center_simulator():
             col1, col2 = st.columns([0.9, 0.1])
 
             with col1:
-                st.markdown(f"**{d['agent_type']} ({cr_translation['turkish']}):** {d['dialog_text']}")
+                st.markdown(f"**{d['agent_type']} ({cr_translation['language_name']}):** {d['dialog_text']}")
 
             # Commenting Out Because we won't use Txt2Speech right now
             # with col2:
