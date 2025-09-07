@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Access environment variables
-OpenAI_API_KEY = os.getenv("OpenAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 
@@ -58,7 +58,8 @@ def retrieve_relevant_chunks(chunks, user_question, top_k=2):
 
 
 def get_oa_client():
-	client = OpenAI(api_key=OpenAI_API_KEY)
+	OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+	client = OpenAI(api_key=OPENAI_API_KEY)
 	return client
 
 
