@@ -20,8 +20,8 @@ def get_firstname_list(
         gender = random.choice([Gender.FEMALE, Gender.MALE])
 
     first_name_file_names_by_gender = {
-        Gender.MALE: 'male_name_tally',
-        Gender.FEMALE: 'female_name_tally',
+        Gender.MALE: 'male_name_us.csv',
+        Gender.FEMALE: 'female_name_us.csv',
     }
     # first_name_file_names_by_gender = {
     #     Gender.MALE: 'male_name_local.txt',
@@ -34,7 +34,7 @@ def get_firstname_list(
 
 
 def get_lastname_list(
-        file_name: str = 'lastname_tally.csv',  # 'surnames_local.csv',
+        file_name: str = 'lastnames_us.csv',  # 'surnames_local.csv',
         input_folder: str = os.path.join('assets', 'structured', 'names')
 ):
 
